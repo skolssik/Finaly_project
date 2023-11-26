@@ -245,6 +245,7 @@
                     @media only screen and (max-width: 1024px){
                       width: auto;
                     }
+                    @media only screen and (max-width: 525px){font-size: 35px;}
                   }
                   h4{
                     color: #C6CFDC;
@@ -252,6 +253,7 @@
                     font-weight: bold;
                     margin-bottom: 108px;
                     }
+                    @media only screen and (max-width: 525px){font-size: 35px;}
                 }
                 .content-right{
                   width: 477px;
