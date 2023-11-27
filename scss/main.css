@@ -73,6 +73,11 @@ table {
   background-position-x: right;
   background-size: contain;
 }
+@media only screen and (max-width: 768px) {
+  .container-first {
+    border-radius: 0 0 50px 50px;
+  }
+}
 .container-first .logo img {
   width: 128px;
   height: 71px;
@@ -220,6 +225,12 @@ table {
   background-repeat: no-repeat;
   background-position-x: right;
 }
+@media only screen and (max-width: 768px) {
+  .second-container .second-content {
+    background-position-x: 80%;
+    background-position-y: 146%;
+  }
+}
 .second-container .second-content .border-item {
   font-family: "Evolventa";
 }
@@ -321,6 +332,11 @@ table {
     justify-items: center;
   }
 }
+@media only screen and (max-width: 765px) {
+  .third-container .left-content {
+    justify-items: center;
+  }
+}
 .third-container .left-content .first-item {
   grid-row: 1/span 2;
 }
@@ -416,7 +432,8 @@ table {
 @media only screen and (max-width: 1024px) {
   .fourt-container {
     margin-top: 50px;
-    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 .fourt-container h6 {
@@ -463,12 +480,7 @@ table {
   .fourt-container .content {
     grid-template-columns: 1fr;
     row-gap: 40px;
-    width: 90%;
-  }
-}
-@media only screen and (max-width: 525px) {
-  .fourt-container .content {
-    width: 85%;
+    width: 100%;
   }
 }
 .fourt-container .content .left-content {
@@ -553,7 +565,7 @@ table {
 }
 @media only screen and (max-width: 1024px) {
   .five-container .bg-fot .info {
-    margin-left: 40px;
+    padding-left: 40px;
     padding-bottom: 50px;
     grid-template-columns: 1fr;
   }
@@ -900,12 +912,22 @@ footer .fot .image {
   background: linear-gradient(246deg, #030712 15.24%, #232178 83.9%);
   border-radius: 0 0 100px 100px;
 }
+@media only screen and (max-width: 625px) {
+  .container-about {
+    border-radius: 0 0 50px 50px;
+  }
+}
 
 .container-about {
   background-image: url(../images/Mask\ group.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;
+}
+@media only screen and (max-width: 625px) {
+  .container-about {
+    background-size: unset;
+  }
 }
 .container-about .logo img {
   width: 128px;
@@ -916,6 +938,11 @@ footer .fot .image {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .container-about header .menu {
+    display: none;
+  }
 }
 .container-about header .menu ul {
   display: flex;
@@ -964,6 +991,16 @@ footer .fot .image {
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 900px) {
+  .container-about .head-content {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container-about .head-content .right-content {
+    display: none;
+  }
+}
 .container-about .head-content .left-content {
   font-family: "Evolventa";
 }
@@ -982,11 +1019,22 @@ footer .fot .image {
   width: 881px;
   margin-top: 12px;
 }
+@media only screen and (max-width: 900px) {
+  .container-about .head-content .left-content h1 {
+    width: 450px;
+    font-size: 25px;
+  }
+}
 .container-about .head-content .left-content h2 {
   font-size: 52px;
   color: rgba(255, 255, 255, 0.56);
   font-weight: bold;
   margin-bottom: 63px;
+}
+@media only screen and (max-width: 900px) {
+  .container-about .head-content .left-content h2 {
+    font-size: 25px;
+  }
 }
 .container-about .planet {
   display: flex;
@@ -994,8 +1042,18 @@ footer .fot .image {
   margin-top: 63px;
   padding-bottom: 25px;
 }
+@media only screen and (max-width: 900px) {
+  .container-about .planet {
+    justify-content: center;
+  }
+}
 .container-about .info {
   font-family: "Evolventa";
+}
+@media only screen and (max-width: 900px) {
+  .container-about .info {
+    width: 60%;
+  }
 }
 .container-about .info a {
   padding: 8px 12px;
@@ -1020,12 +1078,36 @@ footer .fot .image {
   width: 837px;
   margin-bottom: 4px;
 }
+@media only screen and (max-width: 625px) {
+  .container-about .info h1 {
+    width: 450px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .container-about .info h1 {
+    width: 450px;
+    font-size: 25px;
+  }
+}
 .container-about .info h2 {
   color: rgba(255, 255, 255, 0.56);
   font-size: 52px;
   font-weight: bold;
   width: 881px;
   padding-bottom: 138px;
+}
+@media only screen and (max-width: 625px) {
+  .container-about .info h2 {
+    width: 450px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .container-about .info h2 {
+    width: 450px;
+    font-size: 25px;
+  }
 }
 
 .text {
@@ -1034,6 +1116,11 @@ footer .fot .image {
   line-height: 150%;
   color: #1D2733;
 }
+@media only screen and (max-width: 1024px) {
+  .text {
+    font-size: 12px;
+  }
+}
 .text .info {
   display: flex;
   width: 661px;
@@ -1041,16 +1128,36 @@ footer .fot .image {
   margin-top: 100px;
   margin-left: 257px;
 }
+@media only screen and (max-width: 1024px) {
+  .text .info {
+    margin: 0 auto;
+    width: 450px;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+  }
+}
 .text .info .first-item {
   margin-bottom: 12px;
 }
 .text .info .second-item {
   margin-bottom: 100px;
 }
+@media only screen and (max-width: 1024px) {
+  .text .info .second-item {
+    margin-bottom: 50px;
+  }
+}
 
 .third-about {
   background-color: #030712;
   border-radius: 108px;
+}
+@media only screen and (max-width: 1024px) {
+  .third-about {
+    border-radius: 50px;
+  }
 }
 
 .third-about {
@@ -1064,6 +1171,18 @@ footer .fot .image {
   padding-top: 120px;
   font-family: "Evolventa";
 }
+@media only screen and (max-width: 1024px) {
+  .third-about .content {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .third-about .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .third-about .content .left-content {
   color: #FFF;
 }
@@ -1072,13 +1191,28 @@ footer .fot .image {
   font-weight: bold;
   margin-bottom: 24px;
 }
+@media only screen and (max-width: 1024px) {
+  .third-about .content .left-content h1 {
+    font-size: 25px;
+  }
+}
 .third-about .content .left-content p {
   font-size: 16px;
   line-height: 150%;
   width: 387px;
 }
+@media only screen and (max-width: 1024px) {
+  .third-about .content .left-content p {
+    margin-bottom: 12px;
+  }
+}
 .third-about .content .right-content {
   color: #FFF;
+}
+@media only screen and (max-width: 625px) {
+  .third-about .content .right-content {
+    width: 90%;
+  }
 }
 .third-about .content .right-content .first-item {
   border-radius: 20px;
@@ -1111,6 +1245,16 @@ footer .fot .image {
   color: #FFF;
   margin-top: 173px;
   margin-bottom: 160px;
+}
+@media only screen and (max-width: 625px) {
+  .third-about .content .right-last {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .third-about .content .right-last {
+    margin-top: 50px;
+  }
 }
 .third-about .content .right-last .right {
   border-radius: 20px;
@@ -1152,6 +1296,12 @@ footer .fot .image {
   -moz-column-gap: 220px;
        column-gap: 220px;
   row-gap: 140px;
+}
+@media only screen and (max-width: 1024px) {
+  .fourt-about .info-text {
+    grid-template-columns: 497px;
+    justify-content: center;
+  }
 }
 .fourt-about .info-text .left-text {
   font-family: "Evolventa";
@@ -1315,109 +1465,114 @@ footer .fts-fotter .foot .fot .image {
   padding-bottom: 56px;
 }
 
-.registration {
-  font-family: "Evolventa";
+/*Form*/
+.registration .right-info {
   background: linear-gradient(246deg, #030712 15.24%, #232178 83.9%);
-  background-size: cover;
-  background-repeat: no-repeat;
+  font-family: "Evolventa";
 }
-.registration .info label.form-label {
-  margin-top: 32px;
-  margin-bottom: 12px;
-  color: #FFF;
-  font-size: 14px;
-  line-height: 171%;
-}
-.registration .info .form-floating {
-  color: #FFF;
-  width: 822px;
-  display: flex;
-}
-.registration .info .form-floating textarea.form-control {
-  background: rgba(255, 255, 255, 0.3);
-}
-.registration .info .info-text {
-  display: flex;
-  justify-content: space-between;
-}
-.registration .info .info-text h4 {
-  padding-top: 80px;
-  font-size: 52px;
-  color: #FFF;
+
+.registration .right-info h2 {
+  padding-top: 96px;
+  max-width: 528px;
+  margin: 0 auto;
+  padding-bottom: 4px;
   font-weight: bold;
-  margin-bottom: 4px;
+  font-size: 52px;
+  color: #ffffff;
 }
-.registration .info .info-text h5 {
+
+.registration .right-info h3 {
+  max-width: 785px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 52px;
   color: rgba(255, 255, 255, 0.66);
-  font-size: 52px;
-  font-weight: bold;
-  margin-bottom: 60px;
 }
-.registration .info .info-text .first-close {
-  margin-top: 40px;
+
+.registration .right-info form {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
-.registration .info .info-text .first-close button {
-  background-color: #fff;
-}
-.registration .info .info-text .first-close button span {
-  margin-left: 32px;
-  font-size: 16px;
-  color: #fff;
-}
-.registration .info .flex-form {
+.registration .right-info form .forma {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 53px;
-       column-gap: 53px;
+  -moz-column-gap: 52px;
+       column-gap: 52px;
 }
-.registration .info .flex-form form {
-  display: flex;
-  flex-wrap: nowrap;
-  border-radius: 12px;
+@media only screen and (max-width: 650px) {
+  .registration .right-info form .forma {
+    grid-template-columns: 1fr;
+  }
 }
-.registration .info .flex-form form .col-md-4 {
-  color: #FFF;
-  margin-top: 32px;
-  font-size: 14px;
-  line-height: 171%;
-}
-.registration .info .flex-form form .col-md-4 .form-select {
+
+.registration .right-info form input {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 64px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  box-sizing: border-box;
   background: rgba(255, 255, 255, 0.3);
-  color: #FFF;
-  width: 385px;
-  height: 60px;
-}
-.registration .info .flex-form form .col-md-4 input {
-  background: rgba(255, 255, 255, 0.3);
-  width: 385px;
-  height: 60px;
-}
-.registration .info .flex-form form .col-md-4 input::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.81);
-}
-.registration .info .flex-form form .col-md-4 input::placeholder {
-  color: rgba(255, 255, 255, 0.81);
-}
-.registration .info .col-12 .form-check {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  color: #FFF;
-}
-.registration .info .col-12 .form-check label {
-  margin-left: 12px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+  outline: none;
+  padding-left: 32px;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 175%;
 }
-.registration .info .col-12 .form-check label span {
+
+.registration .right-info form input::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(244, 246, 252, 0.5);
+}
+
+.registration .right-info form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(244, 246, 252, 0.5);
+}
+
+.registration .right-info form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(244, 246, 252, 0.5);
+}
+
+.registration .right-info form input::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(244, 246, 252, 0.5);
+}
+
+.registration .right-info form button {
+  width: 100%;
+  margin-top: 23px;
+  margin-bottom: 28px;
+  text-align: center;
+  font-family: "Manrope";
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #5282FF;
+  border-radius: 41px;
+  font-size: 18px;
+  line-height: 178%;
   color: #FFF;
-  text-decoration: underline;
+  border: none;
+  transition: 0.8s;
+  cursor: pointer;
 }
-.registration .info .col-12 {
-  display: flex;
-  justify-content: center;
+
+.registration .right-info form button:hover {
+  color: #5282FF;
+  background-color: #FFF;
 }
-.registration .info .col-12 button {
-  margin-top: 40px;
+
+.registration .right-info form .btn-wrap {
+  text-align: center;
+}
+
+.registration .right-info form .btn-wrap .info {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 178%;
+}
+
+.registration .right-info form .btn-wrap .link-info span {
+  margin-left: 5px;
 }/*# sourceMappingURL=main.css.map */

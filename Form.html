@@ -10,72 +10,49 @@
 </head>
 <body>
   <section class="registration">
-  <div class="info center">
-    <div class="info-text">
-    <div class="first-info">
-    <h4>Fill the form and we’ll</h4>
-    <h5>be in touch as soon as possible</h5>
-  </div>
-    <div class="first-close">
-    <button type="button" class="btn-close" aria-label="Close"><span>Close</span></button>
-  </div>
-</div>
-          <div class="flex-form">
-          <form class="row g-3">
-            <div class="left-form">
-            <div class="col-md-4">
-              <label for="validationDefault01" class="form-label">Your name</label>
-              <input type="text" class="form-control" id="validationDefault01" placeholder="Name" required>
-            </div>
-            <div class="col-md-4">
-              <label for="validationDefault02" class="form-label">Company name</label>
-              <input type="text" class="form-control" id="validationDefault02" placeholder="Company name" required>
-            </div>
-            <div class="col-md-4">
-              <label for="validationDefault04" class="form-label">Select partnership type</label>
-              <select class="form-select" id="validationDefault04" required>
-                <option selected disabled value="">Technology partners</option>
-                <option>...</option>
-              </select>
-            </div>
-            </div>
-            <div class="right-form">
-            <div class="col-md-4">
-              <label for="validationDefault03" class="form-label">Email</label>
-              <input type="text" class="form-control" id="validationDefault03" placeholder="name@example.com" required>
-            </div>
-            <div class="col-md-4">
-              <label for="validationDefault05" class="form-label">Company website (optional)</label>
-              <input type="text" class="form-control" id="validationDefault05" placeholder="https://" value="https://" required>
-            </div>     
-            <div class="col-md-4">
-              <label for="validationDefault04" class="form-label">How did you hear about us?</label>
-              <select class="form-select" id="validationDefault04" required>
-                <option selected disabled value="">Website / Search Engine</option>
-                <option>...</option>
-              </select>
-            </div>
+    <div class="right-info">
+      <h2>Fill the form and we’ll</h2>
+      <h3>be in touch as soon as possible</h3>
+      
+      <form action="/" method="get">
+        <div class="forma">
+        <div class="item1">  
+        <div>
+              <input type="text" placeholder="Name" name="yourName">
+          </div>
+          <div>
+              <input type="text" placeholder="Company name" name="yourEmail">
+          </div>
+          <div>
+              <input type="url" placeholder="Technology partners" name="yourUrl">
           </div>
         </div>
-        <label for="validationDefault04" class="form-label">How did you hear about us?</label>
-        <div class="form-floating">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-          <label for="floatingTextarea2">Your message</label>
+        <div class="item1">
+          <div>
+            <input type="email" placeholder="Email" name="yourUrl">
         </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
-                  I agree to the <span>Terms of Use</span> and <span>Privacy Policy</span>
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-          </form>
+        <div>
+          <input type="url" placeholder="https://" name="yourUrl">
+      </div>
+      <div>
+        <input type="url" placeholder="Website / Search Engine" name="yourUrl">
+    </div>
   </div>
         </div>
+        <button type="submit">Get Started</button>
+        <div class="btn-wrap">
+          <a href="#" class="info" onclick="history.back(); return false;">Close<span>&rarr;</span></a>
+      </div>
+      </form>
+    
+  </div>
   </section>
+  <script>
+    function closeWindow(){
+      if (confirm('Вы действительно хотите закрыть страницу?')) {
+        window.close();
+      }
+    }
+    </script>
 </body>
 </html>
