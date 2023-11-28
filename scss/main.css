@@ -1025,6 +1025,12 @@ footer .fot .image {
     font-size: 25px;
   }
 }
+@media only screen and (max-width: 470px) {
+  .container-about .head-content .left-content h1 {
+    font-size: 16px;
+    width: 290px;
+  }
+}
 .container-about .head-content .left-content h2 {
   font-size: 52px;
   color: rgba(255, 255, 255, 0.56);
@@ -1034,6 +1040,11 @@ footer .fot .image {
 @media only screen and (max-width: 900px) {
   .container-about .head-content .left-content h2 {
     font-size: 25px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .container-about .head-content .left-content h2 {
+    font-size: 16px;
   }
 }
 .container-about .planet {
@@ -1090,6 +1101,12 @@ footer .fot .image {
     font-size: 25px;
   }
 }
+@media only screen and (max-width: 470px) {
+  .container-about .info h1 {
+    font-size: 16px;
+    width: 290px;
+  }
+}
 .container-about .info h2 {
   color: rgba(255, 255, 255, 0.56);
   font-size: 52px;
@@ -1107,6 +1124,12 @@ footer .fot .image {
   .container-about .info h2 {
     width: 450px;
     font-size: 25px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .container-about .info h2 {
+    font-size: 16px;
+    width: 290px;
   }
 }
 
@@ -1136,6 +1159,11 @@ footer .fot .image {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .text .info {
+    width: 300px;
   }
 }
 .text .info .first-item {
@@ -1183,6 +1211,12 @@ footer .fot .image {
     align-items: center;
   }
 }
+@media only screen and (max-width: 470px) {
+  .third-about .content {
+    justify-content: center;
+    width: 290px;
+  }
+}
 .third-about .content .left-content {
   color: #FFF;
 }
@@ -1204,6 +1238,11 @@ footer .fot .image {
 @media only screen and (max-width: 1024px) {
   .third-about .content .left-content p {
     margin-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .third-about .content .left-content p {
+    width: 349px;
   }
 }
 .third-about .content .right-content {
@@ -1256,6 +1295,11 @@ footer .fot .image {
     margin-top: 50px;
   }
 }
+@media only screen and (max-width: 470px) {
+  .third-about .content .right-last {
+    width: 250px;
+  }
+}
 .third-about .content .right-last .right {
   border-radius: 20px;
   background-color: #0A0E22;
@@ -1303,8 +1347,19 @@ footer .fot .image {
     justify-content: center;
   }
 }
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
 .fourt-about .info-text .left-text {
   font-family: "Evolventa";
+}
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text .left-text {
+    width: 75%;
+  }
 }
 .fourt-about .info-text .left-text a {
   text-decoration: none;
@@ -1315,6 +1370,11 @@ footer .fot .image {
   color: #1D2733;
   font-weight: bold;
   transition: 1s;
+}
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text .left-text a {
+    font-size: 13px;
+  }
 }
 .fourt-about .info-text .left-text a:hover {
   background-color: #6B24A9;
@@ -1328,10 +1388,20 @@ footer .fot .image {
   color: #1D2733;
   margin-bottom: 12px;
 }
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text .left-text h1 {
+    font-size: 22px;
+  }
+}
 .fourt-about .info-text .left-text h2 {
   color: #C6CFDC;
   font-size: 52px;
   font-weight: bold;
+}
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text .left-text h2 {
+    font-size: 25px;
+  }
 }
 .fourt-about .info-text .right-text .card {
   background-color: #EFF1F4;
@@ -1341,12 +1411,22 @@ footer .fot .image {
   width: 459px;
   border-radius: 20px;
 }
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text .right-text .card {
+    width: 250px;
+  }
+}
 .fourt-about .info-text .right-text img {
   background-color: #EFF1F4;
   border-radius: 20px;
   padding: 32px 40px;
   width: 459px;
   margin-bottom: 40px;
+}
+@media only screen and (max-width: 470px) {
+  .fourt-about .info-text .right-text img {
+    width: 250px;
+  }
 }
 .fourt-about .info-text .right-text .card-text {
   display: flex;

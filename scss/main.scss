@@ -804,6 +804,7 @@
                 width: 881px;
                 margin-top: 12px;
                 @media only screen and (max-width: 900px){width: 450px; font-size: 25px;}
+                @media only screen and (max-width: 470px){font-size: 16px; width: 290px;}
               }
               h2{
                 font-size: 52px;
@@ -811,6 +812,7 @@
                 font-weight: bold;
                 margin-bottom: 63px;
                 @media only screen and (max-width: 900px){font-size: 25px;}
+                @media only screen and (max-width: 470px){font-size: 16px;}
               }
             }
           }
@@ -848,6 +850,7 @@
               margin-bottom: 4px;
               @media only screen and (max-width: 625px){width: 450px; font-size: 25px;}
               @media only screen and (max-width: 890px){width: 450px; font-size: 25px;}
+              @media only screen and (max-width: 470px){font-size: 16px; width: 290px;}
             }
             h2{
               color: rgba(255, 255, 255, 0.56);;
@@ -857,6 +860,7 @@
               padding-bottom: 138px;
               @media only screen and (max-width: 625px){width: 450px; font-size: 25px;}
               @media only screen and (max-width: 890px){width: 450px; font-size: 25px;}
+              @media only screen and (max-width: 470px){font-size: 16px; width: 290px;}
             }
           }
         }
@@ -873,6 +877,7 @@
               margin-top: 100px;
               margin-left: 257px;
               @media only screen and (max-width: 1024px){margin: 0 auto; width: 450px; margin-top: 50px; padding-left: 40px; padding-right: 40px; padding-top: 50px;}
+              @media only screen and (max-width: 470px){width: 300px;}
               .first-item{
                 margin-bottom: 12px;
               }
@@ -898,6 +903,7 @@
               font-family: "Evolventa";
               @media only screen and (max-width: 1024px){width: 90%; flex-wrap: wrap;}
               @media only screen and (max-width: 890px){flex-direction: column; align-items: center;}
+              @media only screen and (max-width: 470px){justify-content: center; width: 290px;}
               .left-content{
                 color: #FFF;
                 h1{
@@ -911,6 +917,7 @@
                   line-height: 150%;
                   width: 387px;
                   @media only screen and (max-width: 1024px){margin-bottom: 12px;}
+                  @media only screen and (max-width: 470px){width: 349px;}
                 }
               }
               .right-content{
@@ -949,6 +956,7 @@
                 margin-bottom: 160px;
                 @media only screen and (max-width: 625px){margin: 0;}
                 @media only screen and (max-width: 890px){margin-top: 50px;}
+                @media only screen and (max-width: 470px){width: 250px;}
                 .right{
                   border-radius: 20px;
                   background-color: #0A0E22;
@@ -989,8 +997,10 @@
               column-gap: 220px;
               row-gap: 140px;
               @media only screen and (max-width: 1024px){grid-template-columns: 497px; justify-content: center;}
+              @media only screen and (max-width: 470px){grid-template-columns: 1fr; justify-items: center;}
               .left-text{
                 font-family: "Evolventa";
+                @media only screen and (max-width: 470px){width: 75%;}
                 a{
                   text-decoration: none;
                   border-radius: 8px;
@@ -1000,6 +1010,7 @@
                   color: $black-text;
                   font-weight: bold;
                   transition: 1s;
+                  @media only screen and (max-width: 470px){font-size: 13px;}
                 }
               a:hover{
               background-color: #6B24A9;
@@ -1012,11 +1023,13 @@
                   font-weight: bold;
                   color: $black-text;
                   margin-bottom: 12px;
+                  @media only screen and (max-width: 470px){font-size: 22px;}
                 }
                 h2{
                   color: #C6CFDC;
                   font-size: 52px;
                   font-weight: bold;
+                  @media only screen and (max-width: 470px){font-size: 25px;}
                 }
               }
               .right-text{
@@ -1028,6 +1041,7 @@
                   padding: 30px 17px 53px 5px;
                   width: 459px;
                   border-radius: 20px;
+                  @media only screen and (max-width: 470px){width: 250px;}
                 }
                 img{
                   background-color: #EFF1F4;
@@ -1035,6 +1049,7 @@
                   padding: 32px 40px;
                   width: 459px;
                   margin-bottom: 40px;
+                  @media only screen and (max-width: 470px){width: 250px;}
                 }
                 .card-text{
                   display: flex;
