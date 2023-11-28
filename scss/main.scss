@@ -164,6 +164,10 @@
               width: 710px;
               padding-left: 132px;
               position: relative;
+              .burger{
+                display: none;
+                @media only screen and (max-width: 1024px){display: flex;}
+              }
               
                 h1{
                   color: #FFF;

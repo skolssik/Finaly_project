@@ -160,6 +160,14 @@ table {
   padding-left: 132px;
   position: relative;
 }
+.container-first .head-content .left-content .burger {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .container-first .head-content .left-content .burger {
+    display: flex;
+  }
+}
 .container-first .head-content .left-content h1 {
   color: #FFF;
   font-family: "Evolventa";
